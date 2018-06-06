@@ -1,0 +1,23 @@
+{
+    "name": "arthuryinzhen/php-action-log",
+    "description": "A laravel package of action log",
+    "keywords": ["laravel","ActionLog"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "尹振",
+            "email": "arthur.yinzhen@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "arthuryinzhen\\ActionLog\\": "src/"
+        }
+    }
+}
