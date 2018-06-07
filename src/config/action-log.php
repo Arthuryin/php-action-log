@@ -2,7 +2,7 @@
 	return [
 		//填写要记录的日志的模型名称
 		'models' => [
-			'\App\models\User',
+			'\App\Models\User',
 		],
 
 
