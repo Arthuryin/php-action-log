@@ -56,7 +56,7 @@ class ActionLogServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton("ActionLog",function($app){
-            return new \luoyangpeng\ActionLog\Repositories\ActionLogRepository();
+            return new \arthuryinzhen\ActionLog\Repositories\ActionLogRepository();
         });
     }
 }
