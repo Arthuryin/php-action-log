@@ -29,8 +29,6 @@ class ActionLogRepository {
 			}
 		}
 
-       	$actionLog->browser = clientService::getBrowser($_SERVER['HTTP_USER_AGENT'],true);
-       	$actionLog->system = clientService::getPlatForm($_SERVER['HTTP_USER_AGENT'],true);
        	$actionLog->url = request()->getRequestUri();
         $actionLog->ip = request()->getClientIp();
         $actionLog->type = $type;
